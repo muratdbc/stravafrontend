@@ -1,0 +1,146 @@
+<div class="non_nav">
+
+  <!-- *********** Curent Match active section *********** -->
+
+
+  <!-- ***** Game information ***** -->
+
+  <div class="current_match_header">
+    <h2>{{game title}}</h2>
+    <h4>{{game description}}</h2>
+    </div>
+
+  <!-- ***** Display players in order (OR maybe team vs team layout) ***** -->
+    <div class="row">
+      <div class="col-md-6 team_show">
+        <div class="col-md-3 team_player team_a">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_a">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_b">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_b">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 team_show">
+        <div class="col-md-3 team_player team_b">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_a">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_b">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+        <div class="col-md-3 team_player team_a">
+          <img src="images/bg1.jpg" alt="" class="img-circle team_match_image">
+          <p>{{name}}</p>
+          <p>{{total amount run}}</p>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+      <!-- ***** Current score ***** -->
+
+    <div class="row">
+      <div class="col-md-5 team_show team_a">
+        <h3>{{Team A}}</h3>
+      </div>
+      <div class="col-md-2 team_show">
+        <h4>{{2 days 12 hours 5 minutes}}</h4>
+      </div>
+      <div class="col-md-5 team_show team_b">
+        <h3>{{Team B}}</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 team_show team_a">
+        <h1>{{234 miles}}</h1>
+      </div>
+      <div class="col-md-2 team_show">
+        <h1>VS.</h1>
+      </div>
+      <div class="col-md-5 team_show team_b">
+        <h1>{{624 miles}}</h1>
+      </div>
+    </div>
+    <br><br><br>
+
+      <!-- ***** Team A run logs ***** -->
+
+    <div class="row">
+      <div class="col-md-4 team_show team_a">
+        <ul class="list-group">
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_a_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span> </a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_a_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_a_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_a_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+        </ul>
+      </div>
+
+        <!-- ***** Talk shit forum ***** -->
+
+      <div class="col-md-4 team_show">
+
+        <div class="title_box">
+          <label>Talk Shit</label>
+        </div>
+        <div class="actionBox">
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Say something" />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-default">Add</button>
+            </div>
+          </form>
+
+          <ul class="commentList">
+            <li>
+              <div class="commenterImage">
+                <img src="images/bg1.jpg" />
+              </div>
+              <div class="commentText">
+                <p class="">{{Hello this is a test of talking shit}}</p> <span class="date sub-text">{{on March 5th, 2014}}</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <!-- ***** Team B run logs ***** -->
+
+      <div class="col-md-4 team_show team_b">
+        <ul class="list-group">
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+          <li class="list-group-item">{{name}} ran {{12}} miles <a href="images/bg1.jpg" data-lightbox="team_b_maps" data-title="{{name, distance}}"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div> <!-- non nav -->

@@ -1,0 +1,78 @@
+<div ng-controller="ProfileCtrl" class="row">
+
+    <div class="col-md-4 user_information">
+      <img ng-src={{stravaProfile.profile}} alt="" class="img-circle profile_picture">
+      <h3>{{stravaProfile.firstname}}</h3>
+      <h4>{{stravaProfile.lastname}}</h4>
+      <h4>{{stravaProfile.email}}</h4>
+      <hr>
+      <h5>1,300 miles run</h5>
+      <h5>San Francisco, CA</h5>
+      <br>
+      <button type="button" class="btn btn-default">Log Out</button>
+    </div>
+
+    <div class="col-md-8 team_information">
+      <h1>Team Name</h1>
+      <h3>Blah, blah, blah,Blah, blah, blahBlah, blah, blahBlah, blah, blahBlah, blah, blah team description</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/bg2.jpg" alt="" class="img-circle team_picture">
+          <div>
+            <h6>username</h6>
+            <h6>actual name</h6>
+            <h6>total miles run</h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/bg3.jpg" alt="" class="img-circle team_picture">
+          <h6>username</h6>
+          <h6>actual name</h6>
+          <h6>total miles run</h6>
+        </div>
+        <div class="col-md-4">
+          <img src="images/bg4.jpg" alt="" class="img-circle team_picture">
+          <h6>username</h6>
+          <h6>actual name</h6>
+          <h6>total miles run</h6>
+        </div>
+      </div>
+      <div class="team_stats">
+        <p>team total distance || team total comptetions || team total wins - team total losses
+        </div>
+        <div class="team_messages">
+        </div>
+
+
+
+        <div class="team_chat_wrapper">
+
+          <div class="title_box">
+            <label>Team Chat</label>
+          </div>
+          <div class="actionBox">
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Say something" />
+              </div>
+              <div class="form-group">
+                <button class="btn btn-default">Add</button>
+              </div>
+            </form>
+
+            <ul class="commentList">
+              <li>
+                <div class="commenterImage">
+                  <img src="images/bg4.jpg" />
+                </div>
+                <div class="commentText">
+                  <p class="">Hello team this is a test comment</p> <span class="date sub-text">on March 5th, 2014</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- divititis -->
+    </div>
+
+  </div> <!-- non nav -->
